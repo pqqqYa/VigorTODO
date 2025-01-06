@@ -8,7 +8,7 @@ import en from 'element-plus/es/locale/lang/en'
 import es from 'element-plus/es/locale/lang/es'
 import ja from 'element-plus/es/locale/lang/ja'
 import zhCn from 'element-plus/es/locale/lang/zh-cn'
-import zhTw from 'element-plus/es/locale/lang/zh-tw'
+import zhHk from 'element-plus/es/locale/lang/zh-tw'
 import { isNull } from 'es-toolkit'
 import { computed, onBeforeUnmount, onMounted, ref, watch, watchEffect } from 'vue'
 import { useI18n } from 'vue-i18n'
@@ -163,8 +163,8 @@ const store = new Store()
 const useLocale = computed(() => {
   if (locale.value === 'zh-cn')
     return zhCn
-  else if (locale.value === 'zh-tw')
-    return zhTw
+  else if (locale.value === 'zh-hk')
+    return zhHk
   else if (locale.value === 'ja')
     return ja
   else if (locale.value === 'es')

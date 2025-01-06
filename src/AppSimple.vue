@@ -6,7 +6,7 @@ import en from 'element-plus/es/locale/lang/en'
 import es from 'element-plus/es/locale/lang/es'
 import ja from 'element-plus/es/locale/lang/ja'
 import zhCn from 'element-plus/es/locale/lang/zh-cn'
-import zhTw from 'element-plus/es/locale/lang/zh-tw'
+import zhHk from 'element-plus/es/locale/lang/zh-tw'
 import { computed, onBeforeUnmount, onMounted, ref, watch } from 'vue'
 import { useI18n } from 'vue-i18n'
 import setTime from './components/List/Item/setTime'
@@ -56,8 +56,8 @@ const isBlur = (localStorage.getItem('menuBlur') === 'true' || localStorage.getI
 const useLocale = computed(() => {
   if (locale.value === 'zh-cn')
     return zhCn
-  else if (locale.value === 'zh-tw')
-    return zhTw
+  else if (locale.value === 'zh-hk')
+    return zhHk
   else if (locale.value === 'ja')
     return ja
   else if (locale.value === 'es')

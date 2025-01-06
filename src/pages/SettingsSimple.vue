@@ -61,7 +61,7 @@ const localLang = navigator.language.toLowerCase()
         <div i-flagpack:es text-5 drop-shadow-md />
         <div i-flagpack:cn text-5 drop-shadow-md />
         <div i-flagpack:hk text-5 drop-shadow-md />
-        <div v-if="localLang === 'zh-tw'" i-flagpack:tw text-5 drop-shadow-md />
+        <div v-if="localLang === 'zh-hk'" i-flagpack:tw text-5 drop-shadow-md />
         <div i-flagpack:jp text-5 drop-shadow-md />
       </div>
     </ItemButton>

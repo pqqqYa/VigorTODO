@@ -116,16 +116,16 @@ const isNoteUI = localStorage.getItem('newNoteUI') === 'true'
         </div>
         <div
           class="item group"
-          :class="langShow('zh-tw') ? 'select' : ''"
+          :class="langShow('zh-hk') ? 'select' : ''"
           :style="{ width: simpleMode ? 'calc(100% - 30px)' : '' }"
           bg="white dark:#999/10 active:primary-d dark:active:primary-a"
-          @click="() => menuClick('zh-tw')"
+          @click="() => menuClick('zh-hk')"
         >
           <div flex items-center>
-            <div :class="localLang === 'zh-tw' ? 'i-circle-flags:tw' : 'i-circle-flags:cn-hk'" mr-3 text-5 />
-            <span c="#333 dark:#bbb group-active:white">{{ localLang === 'zh-tw' ? t('zh-tw') : '中文（繁體）' }}</span>
+            <div :class="localLang === 'zh-hk' ? 'i-circle-flags:tw' : 'i-circle-flags:cn-hk'" mr-3 text-5 />
+            <span c="#333 dark:#bbb group-active:white">{{ localLang === 'zh-hk' ? t('zh-hk') : '中文（繁體）' }}</span>
           </div>
-          <div v-if="langShow('zh-tw')" i-mdi:check text-24px c="primary-d dark:primary-a" />
+          <div v-if="langShow('zh-hk')" i-mdi:check text-24px c="primary-d dark:primary-a" />
         </div>
         <div
           class="item group"
