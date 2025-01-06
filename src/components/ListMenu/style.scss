@@ -1,0 +1,63 @@
+.list-menu {
+  background-color: #fff6dcaa;
+  height: calc(100vh - 40px);
+  //border-right: 1px solid #00000010;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  z-index: 10;
+  transition: width 0.2s ease;
+  position: relative;
+
+  .list {
+    .title {
+      display: block;
+      margin: 15px 0 0 20px;
+      font-weight: bold;
+      color: #00000090;
+    }
+
+    .cate {
+      overflow-y: scroll;
+      // height: calc(100vh - 520px);
+      margin-bottom: 10px;
+    }
+
+    .setting-list {
+      padding: 10px;
+      overflow-x: hidden;
+      width: calc(100% - 40px);
+      margin-left: 10px;
+      margin-bottom: 3px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-radius: 7px;
+      -webkit-app-region: no-drag;
+      cursor: pointer;
+
+      div {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+      }
+
+      span {
+        color: #00000090;
+        font-size: 18px;
+        font-weight: bold;
+        white-space: nowrap;
+      }
+    }
+
+    .all-todo-list {
+      @extend .setting-list;
+    }
+
+    .account-list {
+      @extend .setting-list;
+      margin-top: 12px;
+      transition: margin 0.2s;
+    }
+  }
+}

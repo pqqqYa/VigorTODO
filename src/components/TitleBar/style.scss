@@ -1,0 +1,124 @@
+.title-bar {
+  -webkit-app-region: drag;
+  width: calc(100vw - 300px);
+  margin-left: 300px;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  z-index: 100;
+
+  .title-text {
+    position: absolute;
+    color: white;
+    left: 50%;
+    font-weight: bold;
+    transform: translateX(-50%);
+    font-size: 14px;
+  }
+
+  .button {
+    margin-top: 1px;
+    height: 20px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 9px;
+    border-radius: 5px;
+    -webkit-app-region: no-drag;
+    cursor: pointer;
+    color: white;
+    z-index: 1;
+
+    img {
+      width: 12px;
+      height: 12px;
+    }
+
+    span {
+      display: block;
+      font-size: 12px;
+      font-weight: bold;
+      margin-left: 1px;
+    }
+
+    &.close-button {
+      background-color: #e5544b;
+      width: 50px;
+      height: 20px;
+      border: 1px solid #e5544b;
+
+      &:hover {
+        background-color: #c95047;
+        border: 1px solid #c95047;
+      }
+
+      &:active {
+        background-color: #99362f;
+        border: 1px solid #99362f;
+      }
+    }
+
+    &.min-button {
+      border: 1px solid #594b4270;
+      color: #00000090;
+
+      &:hover {
+        background-color: #00000010;
+      }
+
+      &:active {
+        background-color: #00000030;
+      }
+    }
+
+    &.close-button-mac {
+      @extend .close-button;
+      margin-left: 10px;
+      width: 20px;
+      left: 0;
+      position: absolute;
+    }
+
+    &.min-button-mac {
+      @extend .min-button;
+      width: 20px;
+      position: absolute;
+      left: 37.5px;
+
+      &.max {
+        left: 67.5px;
+      }
+    }
+
+    &.on-top-button {
+      @extend .min-button;
+      position: absolute;
+    }
+
+    &.on-top-button-sel {
+      @extend .close-button;
+      position: absolute;
+    }
+  }
+
+  .list-menu-color {
+    height: 40px;
+    width: 300px;
+    background-color: #fff6dcaa;
+    overflow: visible;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+
+  .list-menu-drag {
+    @extend .list-menu-color;
+    background-color: transparent;
+    left: 70px;
+    width: 230px;
+    -webkit-app-region: drag;
+  }
+}

@@ -1,0 +1,275 @@
+{
+  "addText": "添加",
+  "cancelText": "取消",
+  "copyText": "复制",
+  "copyToast": "复制成功",
+  "settingTitleText": "设置",
+  "setLangText": "跟随系统",
+  "updateText": "新版本",
+  "loginText": "未登录",
+  "myAccount": "我的账号",
+  "setTopState": "保存置顶状态",
+  "saveWindowSize": "保存窗口大小",
+  "clearData": "清除数据",
+  "useSystemBar": "使用系统标题栏",
+  "setTopWindow": "置顶窗口",
+  "restartApp": "重启应用生效",
+  "closeWindow": "你想要关闭 vigor ToDo 吗？",
+  "accountPage": {
+    "account": "账号",
+    "passwd": "密码",
+    "login": "登录",
+    "register": "注册",
+    "autoSync": "自动同步",
+    "logout": "退出登录",
+    "alertNoAnP": "请输入账号和密码",
+    "syncData": "同步数据",
+    "syncSuccess": "同步成功",
+    "syncFail": "同步失败",
+    "loginError": "登录失败",
+    "alertTitle": "提示",
+    "changPass": "修改密码",
+    "logoutMsg": "确定退出登录吗？",
+    "userNum": "已注册用户"
+  },
+  "listMenu": {
+    "cate": "分类",
+    "allTodo": "所有 ToDo",
+    "completed": "已完成",
+    "incompleted": "未完成",
+    "star": "加星 ToDo",
+    "to": "移至 ",
+    "delCate": "你确定要删除 {title} 吗？",
+    "delTodo": "一起删除 ToDo"
+  },
+  "alertText": {
+    "cancelText": "取消",
+    "returnText": "确定"
+  },
+  "firstLoadData": [
+    "欢迎使用 vigor ToDo",
+    "将鼠标移至 ToDo 项的左边，完成 ToDo",
+    "将鼠标移至 ToDo 项的右边，删除 ToDo",
+    "将鼠标移至 ToDo 标题栏右上角，复制 ToDo 内容",
+    "星标 ToDo",
+    "你可以设置多个 ToDo 分类"
+  ],
+  "update": {
+    "autoUpdate": "自动获取更新",
+    "updateTitle": "软件更新",
+    "notUpdate": "暂无更新",
+    "checkingUpdate": "检查更新中...",
+    "checkUpdate": "检查更新",
+    "gotoUpdate": "前往更新",
+    "updateLog": "更新日志："
+  },
+  "otherList": {
+    "toWeb": "前往官网",
+    "toPhone": "移动版",
+    "toDonate": "coffee time",
+    "toGithub": "前往 GitHub",
+    "toFind": "联系我",
+    "aboutSponser": "前往Github仓库"
+  },
+  "anotherSettings": {
+    "menuBlur": "窗口毛玻璃",
+    "windowMenu": "窗口菜单",
+    "openSource": "开源鸣谢",
+    "about": "关于 vigor ToDo",
+    "simple": "简易模式",
+    "enterToAdd": "回车添加 ToDo",
+    "autoStart": "开机自启",
+    "itemWrap": "ToDo 默认展开",
+    "laboratory": "实验室",
+    "itemBtnShow": "显示 ToDo 按钮",
+    "rememberQuit": "记住关闭窗口操作",
+    "openPass": "启动加密",
+    "model": "模式选择",
+    "star": "显示加星按钮",
+    "ok": "显示完成按钮",
+    "backup": "本地备份 ToDo"
+  },
+  "contextMenu": {
+    "copy": "复制",
+    "paste": "粘贴",
+    "comToDo": "完成 ToDo",
+    "removeToDo": "删除 ToDo",
+    "clearTxt": "清除文本",
+    "closeItem": "关闭窗口",
+    "undoTodo": "取消完成",
+    "unstarred": "取消加星",
+    "star": "加星",
+    "edit": "编辑 ToDo"
+  },
+  "language": "语言",
+  "registerPage": {
+    "account": "账号：",
+    "password": "密码：",
+    "rePass": "重复密码：",
+    "reg": "注册",
+    "plzAccAndPass": "请输入账号和密码",
+    "onlyNum": "仅支持字母、数字、下划线",
+    "accLen": "账号长度不能超过10位",
+    "rePassError": "重复密码与秘密不一致",
+    "regSuccess": "注册成功！",
+    "regFail": "注册失败！"
+  },
+  "rePassPage": {
+    "oldPass": "旧密码：",
+    "newPass": "新密码：",
+    "setPass": "重设密码",
+    "plzInOldPass": "请输入旧密码",
+    "plzInNewPass": "请输入新密码",
+    "setPassSuccess": "修改密码成功！",
+    "setPassFail": "修改密码失败！"
+  },
+  "logoffPage": {
+    "logoff": "注销账号",
+    "success": "注销成功",
+    "fail": "注销失败",
+    "passNotTrue": "密码不正确"
+  },
+  "startPage": {
+    "today": "我的一天",
+    "allTodos": "所有 ToDo",
+    "startPage": "启动页"
+  },
+  "timeAgo": {
+    "just-now": "现在",
+    "ago": "{0}之前",
+    "in": "在 {0}之中",
+    "last-month": "上个月",
+    "next-month": "下个月",
+    "month": "个月",
+    "last-year": "上年",
+    "next-year": "下年",
+    "year": "年",
+    "yesterday": "昨天",
+    "tomorrow": "明天",
+    "day": "天",
+    "last-week": "上周",
+    "next-week": "下周",
+    "week": "周",
+    "hour": "小时",
+    "minute": "分钟",
+    "second": "秒"
+  },
+  "add-category": "添加分类",
+  "today": "今天 ",
+  "pick-a-day": "选择提醒时间",
+  "todo-time": "ToDo 提醒",
+  "quit": {
+    "tray": "最小化到系统托盘",
+    "quit": "退出",
+    "remember": "下次记住",
+    "closeMsgBox": "不显示关闭对话框"
+  },
+  "custListItem": "自定义侧边栏分类",
+  "custList": {
+    "showAll": "显示所有",
+    "today": "我的一天",
+    "star": "加星 ToDo",
+    "completed": "已完成",
+    "incompleted": "未完成"
+  },
+  "vip": {
+    "proVersion": "vigor ToDo 专业版",
+    "msg": "如果你喜欢 vigor ToDo 的话，请给我一个免费的Star 支持我，谢谢！",
+    "isPay": "启用专业版",
+    "more": "更多功能，敬请期待...",
+    "proFeature": "专业版功能",
+    "showList": "自定义侧边栏分类",
+    "custColor": "自定义分类颜色",
+    "doVip": "已启动 vigor ToDo 专业版",
+    "thanks": "期待您的反馈，这会帮助 vigor ToDo 更好的发展",
+    "floatUI": "使用浮动 UI",
+    "setCustFont": "设置自定义字体",
+    "setCustPassKey": "自定义加密键盘样式"
+  },
+  "openPass": {
+    "useOpenPass": "使用启动加密",
+    "usePass": "使用密码",
+    "clearPass": "清除密码",
+    "plzPass": "请输入密码",
+    "passErr": "密码错误，请重新输入",
+    "longPress": "长按删除"
+  },
+  "todayShow": {
+    "creatTime": "仅显示今天创建",
+    "remindTime": "仅显示今天提醒",
+    "allTime": "显示所有有关今天"
+  },
+  "setFont": {
+    "useCustomFont": "使用自定义字体",
+    "donnotSelect": "未选择字体",
+    "select": "已选择",
+    "regular": "常规体",
+    "bold": "粗体",
+    "setFontSize": "设置字体大小",
+    "setFont": "设置字体",
+    "small": "小号",
+    "normal": "标准",
+    "big": "大号",
+    "large": "特大"
+  },
+  "setPassKey": {
+    "useCustPass": "使用自定义锁定键盘"
+  },
+  "noteui": {
+    "noData": "无数据",
+    "other": "未分类",
+    "addCate": "添加类别",
+    "cancelAdd": "取消添加",
+    "chooseIcon": "选择类别图标",
+    "cateName": "类别名称",
+    "chooseColor": "选择类别颜色",
+    "addItem": "确定添加",
+    "allcate": "所有类别",
+    "othercate": "其他类别",
+    "search": "搜索",
+    "spcate": "特殊类别",
+    "opentext": "展开文字",
+    "closetext": "折叠文字"
+  },
+  "sponsor": {
+    "thanks": "感谢支持"
+  },
+  "mode": {
+    "normal": "标准模式",
+    "note": "便签纸模式"
+  },
+  "newCate": "新类别",
+  "setup": {
+    "touse": "前往使用",
+    "toset": "前往 “设置” -> “模式选择” 可重新选择模式"
+  },
+  "note": {
+    "select": "选择类别"
+  },
+  "open": {
+    "thanks": "vigor ToDo 的开发离不开开源社区\n感谢以下开源项目以构建 vigor ToDo"
+  },
+  "seccate": "第二类别",
+  "afd": "点击前往",
+  "delAllDo": "是否删除所有已完成 ToDo？",
+  "backup": "在未登录的情况下，通过备份成本地文件的形式来同步不同设备上的 ToDo 内容和分类",
+  "backupT": {
+    "export": "导出备份",
+    "import": "导入备份",
+    "exportToDo": "导出 ToDo",
+    "exportCate": "导出类别",
+    "importToDo": "导入 ToDo",
+    "importCate": "导入类别",
+    "warn": "注意，导入后数据会被覆盖且不可恢复！！！",
+    "todo": "ToDo 数据",
+    "cate": "类别数据",
+    "importSuccess": "导入成功",
+    "exportSuccess": "导出成功",
+    "warn2": "务必同时导出或导入 ToDo 数据和类别数据！！！"
+  },
+  "win95Btn": {
+    "Toast": "Win95 好！",
+    "Button": "前往 vigor ToDo 95",
+    "closeToast": "拜拜 Win95！"
+  }
+}

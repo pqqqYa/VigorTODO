@@ -1,0 +1,57 @@
+.add {
+  position: relative;
+  width: calc(100% - 20px);
+  height: auto;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+
+  .add-item-text {
+    display: block;
+    border: 0;
+    max-width: calc(100% - 20px);
+    min-width: calc(100% - 20px);
+    outline: none;
+    background-color: transparent;
+    font-family: 'smartisan-t';
+    resize: none;
+    font-size: 1rem;
+  }
+}
+
+.buttons {
+  width: 100%;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  border-radius: 7px;
+
+  button {
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 0;
+    transition:
+      width 0.3s,
+      margin 0.4s;
+    cursor: pointer;
+
+    &.ok-button {
+      width: 0;
+      overflow: hidden;
+      margin-right: 10px;
+    }
+
+    &.close-button {
+      background-color: #d6010f;
+      width: 100%;
+
+      &:active {
+        background-color: #b6000b;
+      }
+    }
+  }
+}

@@ -1,0 +1,275 @@
+{
+  "addText": "Agregar",
+  "cancelText": "Cancelar",
+  "copyText": "Copiar",
+  "copyToast": "Copiado con éxito",
+  "settingTitleText": "Configuraciones",
+  "setLangText": "Seguir el sistema",
+  "updateText": "Nueva versión",
+  "loginText": "No conectado",
+  "myAccount": "Mi cuenta",
+  "setTopState": "Guardar estado de anclaje",
+  "saveWindowSize": "Guardar tamaño de ventana",
+  "clearData": "Borrar datos",
+  "useSystemBar": "Usar barra de título del sistema",
+  "setTopWindow": "Anclar ventana",
+  "restartApp": "Reiniciar la aplicación para aplicar los cambios",
+  "closeWindow": "¿Deseas cerrar vigor ToDo?",
+  "accountPage": {
+    "account": "Cuenta",
+    "passwd": "Contraseña",
+    "login": "Iniciar sesión",
+    "register": "Registrar",
+    "autoSync": "Sincronización automática",
+    "logout": "Cerrar sesión",
+    "alertNoAnP": "Por favor, introduce cuenta y contraseña",
+    "syncData": "Sincronizar datos",
+    "syncSuccess": "Sincronización exitosa",
+    "syncFail": "Sincronización fallida",
+    "loginError": "Error de inicio de sesión",
+    "alertTitle": "Aviso",
+    "changPass": "Cambiar contraseña",
+    "logoutMsg": "¿Estás seguro de que deseas cerrar sesión?",
+    "userNum": "Usuarios registrados"
+  },
+  "listMenu": {
+    "cate": "Categoría",
+    "allTodo": "Todos los ToDo",
+    "completed": "Completados",
+    "incompleted": "Incompletos",
+    "star": "ToDo destacado",
+    "to": "Mover a ",
+    "delCate": "¿Estás seguro de que deseas eliminar {title}?",
+    "delTodo": "Eliminar ToDo juntos"
+  },
+  "alertText": {
+    "cancelText": "Cancelar",
+    "returnText": "Aceptar"
+  },
+  "firstLoadData": [
+    "Bienvenido a vigor ToDo",
+    "Mueve el mouse a la izquierda del ítem ToDo para completarlo",
+    "Mueve el mouse a la derecha del ítem ToDo para eliminarlo",
+    "Mueve el mouse a la esquina superior derecha del encabezado del ToDo para copiar el contenido del ToDo",
+    "Destacar ToDo",
+    "Puedes establecer múltiples categorías de ToDo"
+  ],
+  "update": {
+    "autoUpdate": "Actualizar automáticamente",
+    "updateTitle": "Actualización de software",
+    "notUpdate": "No hay actualizaciones disponibles",
+    "checkingUpdate": "Comprobando actualizaciones...",
+    "checkUpdate": "Comprobar actualizaciones",
+    "gotoUpdate": "Ir a actualizar",
+    "updateLog": "Registro de cambios:"
+  },
+  "otherList": {
+    "toWeb": "Ir al sitio web",
+    "toPhone": "Versión móvil",
+    "toDonate": "Tiempo de café",
+    "toGithub": "Ir a GitHub",
+    "toFind": "Contáctame",
+    "aboutSponser": "Ir al repositorio de GitHub"
+  },
+  "anotherSettings": {
+    "menuBlur": "Ventana de vidrio esmerilado",
+    "windowMenu": "Menú de ventana",
+    "openSource": "Agradecimientos de código abierto",
+    "about": "Acerca de vigor ToDo",
+    "simple": "Modo simple",
+    "enterToAdd": "Presiona Enter para agregar ToDo",
+    "autoStart": "Iniciar automáticamente al encender",
+    "itemWrap": "ToDo expandido por defecto",
+    "laboratory": "Laboratorio",
+    "itemBtnShow": "Mostrar botón de ToDo",
+    "rememberQuit": "Recuerda la acción de cerrar ventana",
+    "openPass": "Iniciar encriptación",
+    "model": "Selección de modo",
+    "star": "Mostrar botón de destacado",
+    "ok": "Mostrar botón de completado",
+    "backup": "Copia de seguridad local de ToDo"
+  },
+  "contextMenu": {
+    "copy": "Copiar",
+    "paste": "Pegar",
+    "comToDo": "Completar ToDo",
+    "removeToDo": "Eliminar ToDo",
+    "clearTxt": "Borrar texto",
+    "closeItem": "Cerrar ventana",
+    "undoTodo": "Deshacer completado",
+    "unstarred": "Quitar destacado",
+    "star": "Destacar",
+    "edit": "Editar ToDo"
+  },
+  "language": "Idioma",
+  "registerPage": {
+    "account": "Cuenta:",
+    "password": "Contraseña:",
+    "rePass": "Repetir contraseña:",
+    "reg": "Registrar",
+    "plzAccAndPass": "Por favor, introduce cuenta y contraseña",
+    "onlyNum": "Solo se permiten letras, números y guiones bajos",
+    "accLen": "La longitud de la cuenta no puede exceder los 10 caracteres",
+    "rePassError": "La contraseña repetida no coincide con la original",
+    "regSuccess": "¡Registro exitoso!",
+    "regFail": "¡Registro fallido!"
+  },
+  "rePassPage": {
+    "oldPass": "Contraseña antigua:",
+    "newPass": "Nueva contraseña:",
+    "setPass": "Restablecer contraseña",
+    "plzInOldPass": "Por favor, introduce la contraseña antigua",
+    "plzInNewPass": "Por favor, introduce la nueva contraseña",
+    "setPassSuccess": "¡Contraseña modificada con éxito!",
+    "setPassFail": "¡Modificación de contraseña fallida!"
+  },
+  "logoffPage": {
+    "logoff": "Cerrar cuenta",
+    "success": "Cierre exitoso",
+    "fail": "Cierre fallido",
+    "passNotTrue": "Contraseña incorrecta"
+  },
+  "startPage": {
+    "today": "Mi día",
+    "allTodos": "Todos los ToDo",
+    "startPage": "Página de inicio"
+  },
+  "timeAgo": {
+    "just-now": "Ahora",
+    "ago": "hace {0}",
+    "in": "en {0}",
+    "last-month": "el mes pasado",
+    "next-month": "el próximo mes",
+    "month": "meses",
+    "last-year": "el año pasado",
+    "next-year": "el próximo año",
+    "year": "años",
+    "yesterday": "ayer",
+    "tomorrow": "mañana",
+    "day": "días",
+    "last-week": "la semana pasada",
+    "next-week": "la próxima semana",
+    "week": "semanas",
+    "hour": "horas",
+    "minute": "minutos",
+    "second": "segundos"
+  },
+  "add-category": "Agregar categoría",
+  "today": "Hoy ",
+  "pick-a-day": "Seleccionar hora de recordatorio",
+  "todo-time": "Recordatorio de ToDo",
+  "quit": {
+    "tray": "Minimizar a la bandeja del sistema",
+    "quit": "Salir",
+    "remember": "Recordar la próxima vez",
+    "closeMsgBox": "No mostrar cuadro de diálogo de cierre"
+  },
+  "custListItem": "Personalizar categorías de la barra lateral",
+  "custList": {
+    "showAll": "Mostrar todo",
+    "today": "Mi día",
+    "star": "ToDo destacado",
+    "completed": "Completados",
+    "incompleted": "Incompletos"
+  },
+  "vip": {
+    "proVersion": "vigor ToDo Versión Profesional",
+    "msg": "Si te gusta vigor ToDo, ¡por favor dame una estrella gratis para apoyarme, gracias!",
+    "isPay": "Activar versión profesional",
+    "more": "Más funciones, ¡próximamente!",
+    "proFeature": "Funciones de la versión profesional",
+    "showList": "Personalizar categorías de la barra lateral",
+    "custColor": "Personalizar colores de categorías",
+    "doVip": "vigor ToDo versión profesional activada",
+    "thanks": "Esperamos tus comentarios, esto ayudará a que vigor ToDo se desarrolle mejor",
+    "floatUI": "Usar UI flotante",
+    "setCustFont": "Establecer fuente personalizada",
+    "setCustPassKey": "Estilo de teclado de encriptación personalizado"
+  },
+  "openPass": {
+    "useOpenPass": "Usar encriptación al iniciar",
+    "usePass": "Usar contraseña",
+    "clearPass": "Borrar contraseña",
+    "plzPass": "Por favor, introduce la contraseña",
+    "passErr": "Contraseña incorrecta, por favor vuelve a introducirla",
+    "longPress": "Mantén presionado para eliminar"
+  },
+  "todayShow": {
+    "creatTime": "Mostrar solo los creados hoy",
+    "remindTime": "Mostrar solo los recordatorios de hoy",
+    "allTime": "Mostrar todos los relacionados con hoy"
+  },
+  "setFont": {
+    "useCustomFont": "Usar fuente personalizada",
+    "donnotSelect": "No se ha seleccionado fuente",
+    "select": "Seleccionado",
+    "regular": "Regular",
+    "bold": "Negrita",
+    "setFontSize": "Establecer tamaño de fuente",
+    "setFont": "Establecer fuente",
+    "small": "Pequeño",
+    "normal": "Normal",
+    "big": "Grande",
+    "large": "Muy grande"
+  },
+  "setPassKey": {
+    "useCustPass": "Usar teclado personalizado para bloqueo"
+  },
+  "noteui": {
+    "noData": "Sin datos",
+    "other": "Sin clasificar",
+    "addCate": "Agregar categoría",
+    "cancelAdd": "Cancelar agregar",
+    "chooseIcon": "Seleccionar ícono de categoría",
+    "cateName": "Nombre de la categoría",
+    "chooseColor": "Seleccionar color de categoría",
+    "addItem": "Aceptar agregar",
+    "allcate": "Todas las categorías",
+    "othercate": "Otras categorías",
+    "search": "Buscar",
+    "spcate": "Categoría especial",
+    "opentext": "Expandir texto",
+    "closetext": "Colapsar texto"
+  },
+  "sponsor": {
+    "thanks": "Gracias por el apoyo"
+  },
+  "mode": {
+    "normal": "Modo normal",
+    "note": "Modo de notas"
+  },
+  "newCate": "Nueva categoría",
+  "setup": {
+    "touse": "Ir a usar",
+    "toset": "Ve a “Configuraciones” -> “Selección de modo” para volver a seleccionar el modo"
+  },
+  "note": {
+    "select": "Seleccionar categoría"
+  },
+  "open": {
+    "thanks": "El desarrollo de vigor ToDo no sería posible sin la comunidad de código abierto\nGracias a los siguientes proyectos de código abierto por ayudar a construir vigor ToDo"
+  },
+  "seccate": "Segunda categoría",
+  "afd": "Haz clic para ir",
+  "delAllDo": "¿Deseas eliminar todos los ToDo completados?",
+  "backup": "Sin iniciar sesión, puedes sincronizar contenido y categorías de ToDo en diferentes dispositivos mediante la copia de seguridad de archivos locales",
+  "backupT": {
+    "export": "Exportar copia de seguridad",
+    "import": "Importar copia de seguridad",
+    "exportToDo": "Exportar ToDo",
+    "exportCate": "Exportar categorías",
+    "importToDo": "Importar ToDo",
+    "importCate": "Importar categorías",
+    "warn": "Ten en cuenta que los datos se sobrescribirán y no podrán recuperarse después de la importación!!!",
+    "todo": "Datos de ToDo",
+    "cate": "Datos de categoría",
+    "importSuccess": "Importación exitosa",
+    "exportSuccess": "Exportación exitosa",
+    "warn2": "¡Asegúrate de exportar o importar simultáneamente los datos de ToDo y de categoría!!!"
+  },
+  "win95Btn": {
+    "Toast": "¡Win95 Bien!",
+    "Button": "Ir a vigor ToDo 95",
+    "closeToast": "¡Adiós Win95!"
+  }
+}

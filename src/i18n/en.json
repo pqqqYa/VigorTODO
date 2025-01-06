@@ -1,0 +1,275 @@
+{
+  "addText": "Add",
+  "cancelText": "Cancel",
+  "copyText": "Copy",
+  "copyToast": "Copy successful",
+  "settingTitleText": "Settings",
+  "setLangText": "Follow system",
+  "updateText": "New version",
+  "loginText": "Not logged in",
+  "myAccount": "My Account",
+  "setTopState": "Save pinned state",
+  "saveWindowSize": "Save window size",
+  "clearData": "Clear data",
+  "useSystemBar": "Use system title bar",
+  "setTopWindow": "Pin window",
+  "restartApp": "Restart app to take effect",
+  "closeWindow": "Do you want to close vigor ToDo?",
+  "accountPage": {
+    "account": "Account",
+    "passwd": "Password",
+    "login": "Login",
+    "register": "Register",
+    "autoSync": "Auto sync",
+    "logout": "Logout",
+    "alertNoAnP": "Please enter account and password",
+    "syncData": "Sync data",
+    "syncSuccess": "Sync successful",
+    "syncFail": "Sync failed",
+    "loginError": "Login failed",
+    "alertTitle": "Alert",
+    "changPass": "Change password",
+    "logoutMsg": "Are you sure you want to log out?",
+    "userNum": "Registered users"
+  },
+  "listMenu": {
+    "cate": "Category",
+    "allTodo": "All ToDo",
+    "completed": "Completed",
+    "incompleted": "Incomplete",
+    "star": "Star ToDo",
+    "to": "Move to ",
+    "delCate": "Are you sure you want to delete {title}?",
+    "delTodo": "Delete ToDo together"
+  },
+  "alertText": {
+    "cancelText": "Cancel",
+    "returnText": "Confirm"
+  },
+  "firstLoadData": [
+    "Welcome to vigor ToDo",
+    "Move the mouse to the left of the ToDo item to complete it",
+    "Move the mouse to the right of the ToDo item to delete it",
+    "Move the mouse to the top right corner of the ToDo title bar to copy ToDo content",
+    "Star ToDo",
+    "You can set multiple ToDo categories"
+  ],
+  "update": {
+    "autoUpdate": "Automatically check for updates",
+    "updateTitle": "Software Update",
+    "notUpdate": "No updates available",
+    "checkingUpdate": "Checking for updates...",
+    "checkUpdate": "Check for updates",
+    "gotoUpdate": "Go to update",
+    "updateLog": "Update log:"
+  },
+  "otherList": {
+    "toWeb": "Go to official website",
+    "toPhone": "Mobile version",
+    "toDonate": "Coffee time",
+    "toGithub": "Go to GitHub",
+    "toFind": "Contact me",
+    "aboutSponser": "Go to GitHub repository"
+  },
+  "anotherSettings": {
+    "menuBlur": "Window blur",
+    "windowMenu": "Window menu",
+    "openSource": "Open source acknowledgments",
+    "about": "About vigor ToDo",
+    "simple": "Simple mode",
+    "enterToAdd": "Press Enter to add ToDo",
+    "autoStart": "Start at boot",
+    "itemWrap": "ToDo default expanded",
+    "laboratory": "Laboratory",
+    "itemBtnShow": "Show ToDo button",
+    "rememberQuit": "Remember close window action",
+    "openPass": "Enable encryption",
+    "model": "Mode selection",
+    "star": "Show star button",
+    "ok": "Show complete button",
+    "backup": "Local backup of ToDo"
+  },
+  "contextMenu": {
+    "copy": "Copy",
+    "paste": "Paste",
+    "comToDo": "Complete ToDo",
+    "removeToDo": "Delete ToDo",
+    "clearTxt": "Clear text",
+    "closeItem": "Close window",
+    "undoTodo": "Undo completion",
+    "unstarred": "Unstar",
+    "star": "Star",
+    "edit": "Edit ToDo"
+  },
+  "language": "Language",
+  "registerPage": {
+    "account": "Account:",
+    "password": "Password:",
+    "rePass": "Repeat password:",
+    "reg": "Register",
+    "plzAccAndPass": "Please enter account and password",
+    "onlyNum": "Only letters, numbers, and underscores are supported",
+    "accLen": "Account length cannot exceed 10 characters",
+    "rePassError": "Repeated password does not match the secret",
+    "regSuccess": "Registration successful!",
+    "regFail": "Registration failed!"
+  },
+  "rePassPage": {
+    "oldPass": "Old password:",
+    "newPass": "New password:",
+    "setPass": "Reset password",
+    "plzInOldPass": "Please enter old password",
+    "plzInNewPass": "Please enter new password",
+    "setPassSuccess": "Password changed successfully!",
+    "setPassFail": "Password change failed!"
+  },
+  "logoffPage": {
+    "logoff": "Log off account",
+    "success": "Log off successful",
+    "fail": "Log off failed",
+    "passNotTrue": "Password incorrect"
+  },
+  "startPage": {
+    "today": "My Day",
+    "allTodos": "All ToDo",
+    "startPage": "Start Page"
+  },
+  "timeAgo": {
+    "just-now": "Just now",
+    "ago": "{0} ago",
+    "in": "In {0}",
+    "last-month": "Last month",
+    "next-month": "Next month",
+    "month": "months",
+    "last-year": "Last year",
+    "next-year": "Next year",
+    "year": "years",
+    "yesterday": "Yesterday",
+    "tomorrow": "Tomorrow",
+    "day": "days",
+    "last-week": "Last week",
+    "next-week": "Next week",
+    "week": "weeks",
+    "hour": "hours",
+    "minute": "minutes",
+    "second": "seconds"
+  },
+  "add-category": "Add category",
+  "today": "Today ",
+  "pick-a-day": "Select reminder time",
+  "todo-time": "ToDo reminder",
+  "quit": {
+    "tray": "Minimize to system tray",
+    "quit": "Exit",
+    "remember": "Remember next time",
+    "closeMsgBox": "Don't show close dialog"
+  },
+  "custListItem": "Customize sidebar categories",
+  "custList": {
+    "showAll": "Show all",
+    "today": "My Day",
+    "star": "Star ToDo",
+    "completed": "Completed",
+    "incompleted": "Incomplete"
+  },
+  "vip": {
+    "proVersion": "vigor ToDo Pro version",
+    "msg": "If you like vigor ToDo, please give me a free Star to support me, thank you!",
+    "isPay": "Enable Pro version",
+    "more": "More features coming soon...",
+    "proFeature": "Pro version features",
+    "showList": "Customize sidebar categories",
+    "custColor": "Customize category color",
+    "doVip": "vigor ToDo Pro version enabled",
+    "thanks": "Looking forward to your feedback, it will help vigor ToDo develop better",
+    "floatUI": "Use floating UI",
+    "setCustFont": "Set custom font",
+    "setCustPassKey": "Customize encryption keyboard style"
+  },
+  "openPass": {
+    "useOpenPass": "Use startup encryption",
+    "usePass": "Use password",
+    "clearPass": "Clear password",
+    "plzPass": "Please enter password",
+    "passErr": "Password incorrect, please re-enter",
+    "longPress": "Long press to delete"
+  },
+  "todayShow": {
+    "creatTime": "Show only created today",
+    "remindTime": "Show only reminders for today",
+    "allTime": "Show all related to today"
+  },
+  "setFont": {
+    "useCustomFont": "Use custom font",
+    "donnotSelect": "No font selected",
+    "select": "Selected",
+    "regular": "Regular",
+    "bold": "Bold",
+    "setFontSize": "Set font size",
+    "setFont": "Set font",
+    "small": "Small",
+    "normal": "Normal",
+    "big": "Large",
+    "large": "Extra large"
+  },
+  "setPassKey": {
+    "useCustPass": "Use custom lock keyboard"
+  },
+  "noteui": {
+    "noData": "No data",
+    "other": "Uncategorized",
+    "addCate": "Add category",
+    "cancelAdd": "Cancel adding",
+    "chooseIcon": "Choose category icon",
+    "cateName": "Category name",
+    "chooseColor": "Choose category color",
+    "addItem": "Confirm adding",
+    "allcate": "All categories",
+    "othercate": "Other categories",
+    "search": "Search",
+    "spcate": "Special category",
+    "opentext": "Expand text",
+    "closetext": "Collapse text"
+  },
+  "sponsor": {
+    "thanks": "Thank you for your support"
+  },
+  "mode": {
+    "normal": "Standard mode",
+    "note": "Sticky note mode"
+  },
+  "newCate": "New category",
+  "setup": {
+    "touse": "Go to use",
+    "toset": "Go to 'Settings' -> 'Mode selection' to reselect mode"
+  },
+  "note": {
+    "select": "Select category"
+  },
+  "open": {
+    "thanks": "The development of vigor ToDo relies on the open-source community\nThanks to the following open-source projects for building vigor ToDo"
+  },
+  "seccate": "Second category",
+  "afd": "Click to go",
+  "delAllDo": "Do you want to delete all completed ToDos?",
+  "backup": "In the case of not being logged in, sync ToDo content and categories across different devices by backing up local files",
+  "backupT": {
+    "export": "Export backup",
+    "import": "Import backup",
+    "exportToDo": "Export ToDo",
+    "exportCate": "Export category",
+    "importToDo": "Import ToDo",
+    "importCate": "Import category",
+    "warn": "Note: Data will be overwritten and cannot be recovered after import!!!",
+    "todo": "ToDo data",
+    "cate": "Category data",
+    "importSuccess": "Import successful",
+    "exportSuccess": "Export successful",
+    "warn2": "Be sure to export or import both ToDo data and category data at the same time!!!"
+  },
+  "win95Btn": {
+    "Toast": "Win95 good!",
+    "Button": "Go to vigor ToDo 95",
+    "closeToast": "Goodbye Win95!"
+  }
+}
