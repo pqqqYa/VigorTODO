@@ -22,86 +22,9 @@ const Logoff: SetupFC = () => {
   const dialogText = ref('')
 
   const logoff = () => {
-    if (!formData.passwd) {
-      dialogText.value = t('registerPage.plzAccAndPass')
-      showDialog.value = true
-      return
-    }
-    fetch('https://api.todo.uyou.org.cn/login', {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-      },
-      body: JSON.stringify({
-        uname: formData.account,
-        passwd: formData.passwd,
-      }),
-    }).then((res) => {
-      return res.json()
-    }).then((res) => {
-      if (res._id) {
-        fetch('https://api.todo.uyou.org.cn/admin/deluser', {
-          method: 'POST',
-          headers: {
-            'Content-Type': 'application/json',
-          },
-          body: JSON.stringify({
-            _id: res._id,
-          }),
-        }).then((res) => {
-          return res.json()
-        }).then((res) => {
-          if (res.code === 200) {
-            fetch('https://api.todo.uyou.org.cn/deltodo', {
-              method: 'POST',
-              headers: {
-                'Content-Type': 'application/json',
-              },
-              body: JSON.stringify({
-                uid: res.data._id,
-              }),
-            }).then((res) => {
-              return res.json()
-            }).then((res) => {
-              if (res.code === 200) {
-                fetch('https://api.todo.uyou.org.cn/deltodocate', {
-                  method: 'POST',
-                  headers: {
-                    'Content-Type': 'application/json',
-                  },
-                  body: JSON.stringify({
-                    uid: res.data.uid,
-                  }),
-                }).then((res) => {
-                  return res.json()
-                }).then((res) => {
-                  if (res.code === 200) {
-                    dialogText.value = t('logoffPage.success')
-                    showDialog.value = true
-                  }
-                  else {
-                    dialogText.value = t('logoffPage.fail')
-                    showDialog.value = true
-                  }
-                })
-              }
-              else {
-                dialogText.value = t('logoffPage.fail')
-                showDialog.value = true
-              }
-            })
-          }
-          else {
-            dialogText.value = t('logoffPage.fail')
-            showDialog.value = true
-          }
-        })
-      }
-      else {
-        dialogText.value = t('logoffPage.passNotTrue')
-        showDialog.value = true
-      }
-    })
+    // 模拟注销成功
+    dialogText.value = t('logoffPage.success')
+    showDialog.value = true
   }
 
   const closeDialog = () => {

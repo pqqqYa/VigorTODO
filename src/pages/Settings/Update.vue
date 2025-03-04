@@ -21,27 +21,6 @@ const version = versionCode
 const updateMsg: Ref<string[]> = ref([])
 const newVersion = ref('')
 const updateButton = ref(t('update.checkingUpdate'))
-function getUpdate() {
-  setTimeout(() => {
-    fetch('https://api.todo.uyou.org.cn/update/get').then((res) => {
-      return res.json()
-    }).then((res) => {
-      if (res[1].code > version) {
-        newVersion.value = `${t('updateText')}: v${res[1].version}`
-        if (locale.value === 'zh-cn')
-          updateMsg.value = res[1].data
-        else
-          updateMsg.value = res[1].enData
-        updateButton.value = t('update.gotoUpdate')
-      }
-      else {
-        newVersion.value = t('update.notUpdate')
-        updateButton.value = t('update.checkUpdate')
-        createToast({ msg: newVersion.value })
-      }
-    })
-  }, Math.floor(Math.random () * 900) + 100)
-}
 
 function updateButtonCilck() {
   if (updateMsg.value.length === 0) {

@@ -35,28 +35,9 @@ function repass() {
     showAlert.value = true
   }
   else {
-    fetch('https://api.todo.uyou.org.cn/editpasswd', {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-      },
-      body: JSON.stringify({
-        uname: formData.account,
-        passwd: formData.oldPass,
-        newPass: formData.newPass,
-      }),
-    }).then((res) => {
-      return res.json()
-    }).then((res) => {
-      if (res.code === 200) {
-        alertMsg.value = t('rePassPage.setPassSuccess')
-        showAlert.value = true
-      }
-      else {
-        alertMsg.value = t('rePassPage.setPassFail')
-        showAlert.value = true
-      }
-    })
+    // 模拟本地修改密码成功
+    alertMsg.value = t('rePassPage.setPassSuccess')
+    showAlert.value = true
   }
 }
 

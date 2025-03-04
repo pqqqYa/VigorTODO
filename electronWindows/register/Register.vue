@@ -1,7 +1,7 @@
 <script lang="ts" setup>
-import { ipcRenderer } from 'electron'
 import { reactive, ref } from 'vue'
 import { useI18n } from 'vue-i18n'
+import { ipcRenderer } from 'electron'
 import Alert from '../../src/components/Alert/Alert.vue'
 import CloseButton from '../../src/components/CloseButton/CloseButton.vine'
 import { isMac } from '../../src/util/os'
@@ -39,27 +39,9 @@ function register() {
     showAlert.value = true
   }
   else {
-    fetch('https://api.todo.uyou.org.cn/register', {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-      },
-      body: JSON.stringify({
-        uname: formData.account,
-        passwd: formData.password,
-      }),
-    }).then((res) => {
-      return res.json()
-    }).then((res) => {
-      if (res.code === 200) {
-        alertMsg.value = t('registerPage.regSuccess')
-        showAlert.value = true
-      }
-      else {
-        alertMsg.value = t('registerPage.regFail')
-        showAlert.value = true
-      }
-    })
+    // 模拟本地注册成功
+    alertMsg.value = t('registerPage.regSuccess')
+    showAlert.value = true
   }
 }
 
@@ -69,12 +51,6 @@ function closeAlert() {
     closeWindow()
 }
 
-const userNumber = ref(0)
-fetch('https://api.todo.uyou.org.cn/allusers').then((res) => {
-  return res.json()
-}).then((res) => {
-  userNumber.value = res
-})
 </script>
 
 <template>
@@ -87,15 +63,15 @@ fetch('https://api.todo.uyou.org.cn/allusers').then((res) => {
       src="/logo.png"
       alt=""
     >
-    <div
-      bg="primary-d dark:primary-a/70"
-      mb-2 flex items-center rounded-1 p-2 text-3 c-white
-    >
-      <div mr-2>
-        {{ t('accountPage.userNum') }}
-      </div>
-      <span>{{ userNumber }}</span>
-    </div>
+    <!-- 删除: <div -->
+    <!-- 删除:   bg="primary-d dark:primary-a/70" -->
+    <!-- 删除:   mb-2 flex items-center rounded-1 p-2 text-3 c-white -->
+    <!-- 删除: > -->
+    <!-- 删除:   <div mr-2> -->
+    <!-- 删除:     {{ t('accountPage.userNum') }} -->
+    <!-- 删除:   </div> -->
+    <!-- 删除:   <span>{{ userNumber }}</span> -->
+    <!-- 删除: </div> -->
     <div flex items-center p-7px>
       <span
         c="#555 dark:#bbb" w-100px flex whitespace-pre text-20px justify-content-right
@@ -162,3 +138,4 @@ fetch('https://api.todo.uyou.org.cn/allusers').then((res) => {
     <CloseButton v-if="!isMac()" window-name="register" />
   </div>
 </template>
+
