@@ -13,16 +13,13 @@ import { isNull } from 'es-toolkit'
 import { computed, onBeforeUnmount, onMounted, ref, watch, watchEffect } from 'vue'
 import { useI18n } from 'vue-i18n'
 import { useRoute, useRouter } from 'vue-router'
-import Alert from './components/Alert/Alert.vue'
 import setTime from './components/List/Item/setTime'
 import ListMenu from './components/ListMenu/ListMenu.vue'
 import OpenPass from './components/OpenPass/OpenPass.vue'
 import RouterUrl from './components/RouterUrl'
 import Setup from './components/Setup/Setup.vue'
 import TitleBar from './components/TitleBar/newTitleBar'
-import { versionCode } from './util/appVersionCode'
 import emitter from './util/bus'
-import firstLoad from './util/firstLoad'
 import getCateList from './util/getCateList'
 import LocalStorage from './util/localStorage'
 import isDev from './util/mode'
@@ -30,40 +27,11 @@ import { isLinux, isWindows10OrAfter } from './util/os'
 
 const { t, locale } = useI18n()
 
-const alertShow = ref(false)
-const alertMsg = ref<string[]>([])
-const newVersion = ref('')
-
-const version = versionCode
-const autoUpdateState = localStorage.getItem('autoUpdate') !== 'false'
-
-firstLoad()
-
-if (autoUpdateState) {
-  fetch('https://api.todo.uyou.org.cn/update/get').then((res) => {
-    return res.json()
-  }).then((res) => {
-    if (res[1].code > version) {
-      if (locale.value === 'zh-cn')
-        alertMsg.value = res[1].data
-      else
-        alertMsg.value = res[1].enData
-      newVersion.value = res[1].version
-      alertShow.value = true
-    }
-  })
-}
-
 onMounted(() => {
   setTimeout(() => {
     getCateList()
   }, 0)
 })
-
-function returnClick() {
-  alertShow.value = false
-  ipcRenderer.send('open-url', 'https://github.com')
-}
 
 window.addEventListener('resize', () => {
   ipcRenderer.send('getWindowSize', {
@@ -236,19 +204,6 @@ const showSetup = ref(isNull(localStorage.getItem('newNoteUI')))
           :border-t="isRound ? '!1px !solid !black/10' : ''"
         >
           <router-view />
-          <Alert
-            :dialog-show="alertShow"
-            :title="`${t('updateText')} v${newVersion}`"
-            :confirm-btn-name="t('update.gotoUpdate')"
-            @cancel="() => alertShow = false"
-            @return="returnClick"
-          >
-            <ul m-0 p-l-20px>
-              <li v-for="(item, index) in alertMsg" :key="index">
-                {{ item.slice(2) }}
-              </li>
-            </ul>
-          </Alert>
         </div>
       </div>
     </div>
